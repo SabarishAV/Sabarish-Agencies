@@ -15,3 +15,25 @@
     width: 50%;
     height: 50%;
 }
+
+.ice-cream{
+    width: 31%;
+    padding-left: 1%;
+    float: left;
+}
+.Sonata{
+    margin-left: 55%;
+    padding-top: 15%;
+    font-variant: petite-caps;
+    font-size: xxx-large;
+    color: #d615b3;
+}
+.enjoy{
+    margin-left: 55%;
+    padding-top: 1%;
+    font-family: cursive;
+    color: #62128a;
+    font-weight: bold;
+    font-size: x-large;
+
+}
