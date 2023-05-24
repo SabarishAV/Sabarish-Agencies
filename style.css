@@ -37,3 +37,30 @@
     font-size: x-large;
 
 }
+.ice-cream-mob{
+    width: 45%;
+    padding-left: 1%;
+    float: left;
+}
+.son-mob{
+    width: 45%;
+    float: left;
+}
+.Sonata-mob{
+    text-align: left;
+    font-variant: petite-caps;
+    font-size: x-large;
+    color: #d615b3;
+    padding-left: 8%;
+    padding-top: 50%;
+}
+.enjoy-mob{
+    font-family: cursive;
+    color: #62128a;
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+    padding-left: 8%;
+
+
+}
