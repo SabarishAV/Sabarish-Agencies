@@ -90,3 +90,18 @@
 .links{
     text-decoration: none;
 }
+.why-us{
+    background-color: aqua;
+    float: left;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 3%;
+}
+.hiii{
+    background-color: blue;
+    align-items: end;
+    width: 100%;
+}
+.wu{
+    background-color: chartreuse;
+}
