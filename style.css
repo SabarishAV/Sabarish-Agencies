@@ -112,3 +112,16 @@
     font-size: 12px;
     color: red;
 }
+
+
+.gal-container{
+    height: max-content;
+    overflow: hidden;
+}
+.carousel-item{
+    height: max-content;
+    width: 100%;
+}
+.carousel-item{
+    height: 100%;
+}
