@@ -2,8 +2,6 @@
     z-index: 5;
     width: 100%;
     height: 25%;
-    position: fixed; /* Make it stick/fixed */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 .logo{
     font-size: xx-large;
@@ -146,4 +144,8 @@ footer{
 .f-l{
     color: white;
     margin: 10px;
+}
+.top{
+    width: 100%;
+    border-radius: 0%;
 }
