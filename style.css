@@ -1,6 +1,9 @@
 .nav-bar{
+    z-index: 5;
     width: 100%;
     height: 25%;
+    position: fixed; /* Make it stick/fixed */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 .logo{
     font-size: xx-large;
@@ -14,23 +17,30 @@
 .vid{
     width: 50%;
     height: 50%;
+    z-index: 1;
 }
 
 .ice-cream{
-    width: 31%;
     padding-left: 1%;
     float: left;
 }
+.the-head{
+    float: left;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.sec-1{
+    overflow: hidden;
+}
 .Sonata{
-    margin-left: 55%;
-    padding-top: 15%;
+   
     font-variant: petite-caps;
     font-size: xxx-large;
     color: #d615b3;
 }
 .enjoy{
-    margin-left: 55%;
-    padding-top: 1%;
+    
     font-family: cursive;
     color: #62128a;
     font-weight: bold;
@@ -38,32 +48,27 @@
 
 }
 .ice-cream-mob{
-    width: 45%;
     padding-left: 1%;
     float: left;
 }
 .son-mob{
-    width: 45%;
     float: left;
+    margin-top: 40%;
+    padding-left: 5%;
 }
 .Sonata-mob{
     text-align: left;
     font-variant: petite-caps;
     font-size: x-large;
     color: #d615b3;
-    padding-left: 8%;
-    padding-top: 50%;
+   
 }
 .enjoy-mob{
     font-family: cursive;
     color: #62128a;
     font-weight: bold;
     font-size: medium;
-    text-align: left;
-    padding-left: 8%;
-}
-.dscptn{
-    margin-top: 25%;
+    text-align: left;  
 }
 .headings{
     padding-left: 1%;
@@ -72,16 +77,6 @@
 }
 .hl{
     font-weight: bold;
-}
-.about-us-mob{
-    padding-top: 50%;
-    text-align: left;
-}
-.au{
-    margin-top: 85px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 15px;
-    color: #d615b3;
 }
 .aboutt{
     color: #62128a;
@@ -101,6 +96,7 @@
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     color: white;
     font-family: 'Courier New', monospace;
+    word-wrap: break-word;
 }
 .wu{
     overflow: hidden;
@@ -111,4 +107,8 @@
 }
 .wu{
     overflow: hidden;
+}
+.vid-txt{
+    font-size: 12px;
+    color: red;
 }
