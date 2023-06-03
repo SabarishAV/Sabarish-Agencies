@@ -72,14 +72,16 @@
     padding-left: 1%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #d615b3;
+    text-align: center;
 }
 .hl{
     font-weight: bold;
 }
 .aboutt{
     color: #62128a;
-    padding-left: 1%;
+    padding: 2%;
     font-family: 'Advent Pro';font-size: 22px;
+    text-align: center;
 }
 .links{
     text-decoration: none;
@@ -148,4 +150,7 @@ footer{
 .top{
     width: 100%;
     border-radius: 0%;
+}
+.contact-us{
+    padding-left: 1%;
 }
